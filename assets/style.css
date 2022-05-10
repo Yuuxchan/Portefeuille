@@ -121,7 +121,7 @@ input:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     background-color: rgb(167, 218, 219);
-    padding: 10%;
+    padding: 5%;
     margin: auto;
     position: relative;
 }
