@@ -14,6 +14,7 @@ body {
 #header {
     display: grid;
     grid-template-columns: repeat(3, 408.45px);
+    justify-content: space-around;
 }
 
 .section1 {
