@@ -115,7 +115,7 @@ input:hover {
 .social {
     display: flex;
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 .social li {
