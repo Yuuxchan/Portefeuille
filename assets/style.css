@@ -100,6 +100,18 @@ input:hover {
     text-align: left;
 }
 
+.description h1 {
+    padding: 5px;
+}
+
+.description h2 {
+    padding: 5px;
+}
+
+.description p {
+    padding: 5px;
+}
+
 #presentation img {
     width: 300px;
 }
