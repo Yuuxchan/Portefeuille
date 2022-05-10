@@ -82,6 +82,7 @@ input:hover {
     border-top: rgb(255, 221, 221) 5px solid;
     border-bottom: rgb(250, 209, 217, 255) 5px solid;
     border-bottom-width: 20%;
+    padding: 10px;
 }
 
 .imagepresentation {
