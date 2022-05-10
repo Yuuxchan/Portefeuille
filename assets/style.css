@@ -388,3 +388,8 @@ span h4:hover {
     right: -100px;
     opacity: 0.5;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+    #header {
+        width: 100%;}
+}
