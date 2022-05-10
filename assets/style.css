@@ -112,6 +112,23 @@ input:hover {
     padding: 10px;
 }
 
+.social {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    margin: 4px;
+}
+
+.social a,
+.social svg {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+
 #presentation img {
     width: 300px;
 }
