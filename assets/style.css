@@ -101,15 +101,15 @@ input:hover {
 }
 
 .description h1 {
-    padding: 5px;
+    padding: 15px;
 }
 
 .description h2 {
-    padding: 5px;
+    padding: 10px;
 }
 
 .description p {
-    padding: 5px;
+    padding: 10px;
 }
 
 #presentation img {
