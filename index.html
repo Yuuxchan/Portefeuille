@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="stysheet" href="assets/css/bootstrap.css"> -->
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="section1">
+            <h2>Présentation</h2>
+            <a href="#presentation">
+                <input type="button" value="Présentation">
+            </a>
+        </div>
+        <div class="section2">
+            <h2>Capital d'expérience</h2>
+            <a href="#experiences">
+                <input type="button" value="Expérience">
+            </a>
+        </div>
+        <div class="section3">
+            <h2>Glossaire référentiel</h2>
+            <a href="#glossaire">
+                <input type="button" value="Glossaire">
+            </a>
+        </div>
+    </div>
+
+    <div class="methodedelecture">
+        <p>Pour lire ce portfolio, il faut se référer au sommaire au début afin de voir les
+            différentes parties.
+            Les projets et expériences seront décris en premier. Il y aura le nom, le domaine,
+            un résumé du projet/expérience et les compétences acquises.
+            Si vous voulez commencer par regarder les compétences, il faudra se référer au
+            glossaire de compétences.</p>
+    </div>
+
+    <div id="presentation">
+        <div class="imagepresentation">
+            <img src="assets/images/pauline.jpeg">
+        </div>
+        <div class="description">
+            <h1>
+                De Jesus Pauline
+            </h1>
+            <h2>Etudiante en informatique</h2>
+            <p>Passionnée par le graphisme, le digital et l’informatique, j’ai acquis
+                des compétences dans ces différents domaines tout au long de mon parcours.</p>
+            <p>
+                Numéro de téléphone : 07 85 34 30 50
+            </p>
+            <p>Mail: d.jesuspauline@gmail.com</p>
+        </div>
+    </div>
+
+    <div id="scrollUp">
+        <a href="#top"><img src="assets/images/to_top.png" alt="bouton top" /></a>
+    </div>
+
+    <div id="experiences">
+        <h3>Mon capital d'expérience</h3>
+        <div class="chefprojet">
+            <img class="projet" src="assets/images/gestionprojet2.jpeg" alt="gestion de projet">
+            <div class="text">
+                <span type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+                    <h4>Apprentie chef de projet - DGFiP Amiens (80)</h4>
+                </span>
+            </div>
+        </div>
+        <div class="apprentiedev">
+            <img class="dev" src="assets/images/apprentiedev.jpeg" alt="développement">
+            <div class="text">
+                <span type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                    <h4>Apprentie chef de projet - DGFiP - Amiens (80)</h4>
+                </span>
+            </div>
+        </div>
+        <div class="developpementweb">
+            <img class="web" src="assets/images/devweb.jpeg" alt="développement web">
+            <div class="text">
+                <span type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
+                    <h4>Stage développement web - ACHP - Albert</h4>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="glossaire">
+        <h6>Glossaire des compétences</h6>
+        <ul class="c1">
+            <li><span>A.</span>
+                <br>
+                Analyser et gérer les riques
+            </li>
+            <li>D.
+                <br>
+                Développer une solution digitale
+                <br>
+                Développer son autonomie
+            </li>
+            <li>E.
+                <br>
+                Encadrer une équipe
+            </li>
+            <li>G.
+                <br>
+                Gérer un projet
+                <br>
+                Gestion de la qualité informatique
+            </li>
+        </ul>
+        <div class="c2">
+            <img src="assets/images/gestionprojet1.jpeg" alt="gestion de projet">
+        </div>
+        <ul class="c3">
+            <li>M.
+                <br>
+                Mener un audit ou test de conformité
+            </li>
+            <li>P.
+                <br>
+                Participer et animer un travail d'équipe
+            </li>
+            <li>R.
+                <br>
+                Réaliser un chiffrage
+            </li>
+            <li>T.
+                <br>Tests
+            </li>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></span>
+                    <h5 class="modal-title" id="myModalLabel">Apprentie chef de projet - DGFiP - Amiens (80)</h5>
+                    <p class="domaine"><span>Domaine</span>: Informatique - Gestion de projet</p>
+                    <p class="resume"><span>Résumé:</span>
+                        <br>
+                        Lors de ma deuxième année d’apprentissage au sein de la DGFiP d’Amiens, j’ai pris les
+                        responsabilité
+                        d’un chef de projet au
+                        sein du projet Camélia. C’est une application d’inscription en ligne aux concours de la
+                        fonction
+                        publique. J’ai dirigé le projet en
+                        compagnie du chef de projet Claudie LE HENAFF.
+                        J’ai réalisé des recettes, estimé des charges pour des fonctions, réalisé plusieurs
+                        livraisons,
+                        participé à plusieurs réunions etc.
+                    </p>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <th>Compétences</th>
+                            <th>Niveaux</th>
+                            <th>Preuves</th>
+                        </tr>
+                        <tr>
+                            <td>B. 3. Tests</td>
+                            <td>2</td>
+                            <td>Tests réalisés selon les spécifications</td>
+                        </tr>
+                        <tr>
+                            <td>Encadrer une équipe</td>
+                            <td>3</td>
+                            <td>Preuve n°2</td>
+                        </tr>
+                        <tr>
+                            <td>Participer et animer un travail d'équipe</td>
+                            <td>2</td>
+                            <td>Distribution des tâches, informations importantes transmises à tout
+                                le monde</td>
+                        </tr>
+                        <tr>
+                            <td>Réaliser un chiffrage</td>
+                            <td>2</td>
+                            <td>J’ai calculé le chiffrage de différentes fonctions d’une spécification
+                                et également le temps de réalisation des spécifications</td>
+                        </tr>
+                        <tr>
+                            <td>Gérer un projet</td>
+                            <td>2</td>
+                            <td>J’ai appris à gérer un projet en réalisant des analyses, des
+                                chiffrages, des recettes et des livraisons. Tout en suivant le
+                                travail des développeurs</td>
+                        </tr>
+                        <tr>
+                            <td>Développer son autonomie</td>
+                            <td>3</td>
+                            <td>Lors de l’absence du chef de projet, j’ai repris le projet seule
+                                pendant 3 semaines. Ce qui prouve mon autonomie</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="myModalLabel">Apprentie développeuse - DGFiP - Amiens (80)</h5>
+                    <p class="domaine"><span>Domaine</span>: Informatique - Gestion de projet</p>
+                    <p class="resume"><span>Résumé:</span>
+                        <br>
+                        Lors de ma deuxième année d’apprentissage au sein de la DGFiP d’Amiens, j’ai pris les
+                        responsabilité
+                        d’un chef de projet au
+                        sein du projet Camélia. C’est une application d’inscription en ligne aux concours de la
+                        fonction
+                        publique. J’ai dirigé le projet en
+                        compagnie du chef de projet Claudie LE HENAFF.
+                        J’ai réalisé des recettes, estimé des charges pour des fonctions, réalisé plusieurs
+                        livraisons,
+                        participé à plusieurs réunions etc.
+                    </p>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <th>Compétences</th>
+                            <th>Niveaux</th>
+                            <th>Preuves</th>
+                        </tr>
+                        <tr>
+                            <td>B.3. Tests</td>
+                            <td>2</td>
+                            <td>Tests réalisées selon une fiche de travail</td>
+                        </tr>
+                        <tr>
+                            <td>E. 6. Gestion de la qualité informatique</td>
+                            <td>2</td>
+                            <td>Qualimétrie suivit selon un score Sonar</td>
+                        </tr>
+                        <tr>
+                            <td>Développer une solution digitale</td>
+                            <td>4</td>
+                            <td>Réalisation d’un batch de suppression,
+                                d’amélioration d’application etc.</td>
+                        </tr>
+                        <tr>
+                            <td>Mener un audit ou test de conformité</td>
+                            <td>2</td>
+                            <td>Vérification des normes RGAA pour un audit</td>
+                        </tr>
+                        <tr>
+                            <td>Développer son autonomie</td>
+                            <td>3</td>
+                            <td>J’ai appris à travailler en autonomie lorsque l’on
+                                me confis une tâche</td>
+                        </tr>
+                    </table>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-prev">Prev</button>
+                        <button type="button" class="btn btn-default btn-next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Apprentie développeuse - DGFiP - Amiens - Fiche de travail</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/images/fichetravail.png" alt="fichedetravail">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-prev">Prev</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Apprentie développeuse - DGFiP - Amiens - Score Sonar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/images/plugins.png" alt="score sonar">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-prev">Prev</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="myModalLabel">Stage développement web - <a href="http://www.achp.fr"
+                            target="_blank">ACHP</a> - Albert
+                        (80)</h5>
+                    <p class="domaine"><span>Domaine</span>: Informatique</p>
+                    <p class="resume"><span>Résumé:</span>
+                        <br>
+                        Lors de mon stage au sein de l’entreprise ACHP (entreprise sur l’hydraulique), j’ai fait la
+                        refonte
+                        de
+                        leur
+                        site internet. C’était un site vitrine pour exposer leur matériel, leur entreprise, ce
+                        qu’ils
+                        faisaient
+                        également.
+                        J’ai eu une deadline de 2 mois et demi pour faire la refonte de leur site web. J’avais
+                        quartier
+                        libre
+                        sur le
+                        design et le langage mais je consultais mon tuteur à chaque nouveauté pour être sûre que mes
+                        idées
+                        soient en accord avec leur charte et leur entreprise.
+                    </p>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <th>Compétences</th>
+                            <th>Niveaux</th>
+                            <th>Preuves</th>
+                        </tr>
+                        <tr>
+                            <td>Analyser et gérer les risques</td>
+                            <td>2</td>
+                            <td>J’ai fait une analyse selon le contexte pour la création du site, en prenant
+                                en compte différents risques possibles (langage, mise en production,
+                                sécurité…)</td>
+                        </tr>
+                        <tr>
+                            <td>Développer une solution digitale</td>
+                            <td>3</td>
+                            <td>J’ai développé entièrement le site web de l’entreprise</td>
+                        </tr>
+                        <tr>
+                            <td>Développer son autonomie</td>
+                            <td>3</td>
+                            <td>Etant la seule informaticienne de l’entreprise, j’ai réalisé seule le site
+                                internet. Donc j’ai développé mon autonomie dans un projet</td>
+                        </tr>
+                        <tr>
+                            <td>B. 3. Tests</td>
+                            <td>3</td>
+                            <td>J’ai réalisé une série de tests pour vérifier si tout était fonctionnel. Et
+                                corrigé lorsque ce n’était pas le cas</td>
+                        </tr>
+                    </table>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-prev">Prev</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
