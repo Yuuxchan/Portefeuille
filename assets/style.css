@@ -132,6 +132,32 @@ input:hover {
     width: 300px;
 }
 
+#skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+}
+
+.skill1 {
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+}
+
+.skill2 {
+    display: flex;
+    grid-column: 2;
+    flex-direction: column;
+}
+
+.skill3 {
+    display: flex;
+    grid-column: 3;
+    flex-direction: column;
+}
+
 #experiences {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
