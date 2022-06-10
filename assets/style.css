@@ -135,27 +135,34 @@ input:hover {
 #skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1;
     grid-gap: 10px;
     margin: auto;
+    justify-content: space-around;
 }
 
 .skill1 {
     display: flex;
     grid-column: 1;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skill2 {
     display: flex;
     grid-column: 2;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skill3 {
     display: flex;
     grid-column: 3;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #experiences {
